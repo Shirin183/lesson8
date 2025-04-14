@@ -1,17 +1,20 @@
-let letterSearch = ["хлеб", "мед", "банан", "яблоко", "Азиза", "цветок", "машина"].
+let numbers = [10, 20, 30, 40];
+let names = ['Alice', 'Bob', 'Charlie'];
 
-console.log(letterSearch);
+console.log(numbers)
+console.log(numbers[1])
 
-let nBor = []
-let nYoq = []
+console.log(numbers.length)
 
-for (let element of etterSearch) {
-    if (element.includes('H')){
-        nBor.push(element)  
-    }else{
-        nYoq.push(element) 
-    }
-    
-}
-console.log(nBor);
-console.log(nYoq);
+console.log(names)
+
+names.push('Jorabekxonim')
+console.log(names)
+
+names.pop()
+console.log(names)
+
+
+
+  
+
